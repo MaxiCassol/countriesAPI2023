@@ -1,0 +1,40 @@
+.divG{
+    padding-bottom: 8rem;
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: center;
+}
+
+.Details{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.1rem;
+    margin: 0rem;
+    border-radius: 20%;
+    background-color: rgba(18, 19, 19, 0.533);
+    color: rgb(252, 239, 223);
+    width: 80%;
+    padding: auto;
+    margin: auto;    
+}
+
+.activityTitle{
+    border-radius: 10%;
+    padding: 0,5rem 1rem;
+    margin: 1rem;
+}
+
+.activities{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    color: bisque;
+    font-size: large;
+}
+
+.activity{
+    border-radius: 20%;
+    background-color: rgba(18, 19, 19, 0.533);
+    padding: 1rem;
+    margin: 1rem;
+}

@@ -1,0 +1,71 @@
+.leyenda{
+  color:rgb(60, 34, 205);
+  /* height: 1rem; */
+  width: 75%;
+  margin-left: 15%;
+  
+}
+
+.filters{
+    color: rgba(240, 248, 255, 0.932);
+    background-color: rgba(0, 0, 0, 0.427);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 1em;
+    padding-top: 1rem;
+}
+
+.selection{
+    background-color:rgba(177, 177, 111, 0.488);
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height: 50rem;
+}
+
+.button {
+  align-self: center;
+  background-color: #05040400;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-color: beige;
+  border-width: 2px;
+  box-sizing: border-box;
+  color:beige;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  transform: translate3d(0, 2px, 0);
+}
+
+.paginado{
+  padding-bottom: 1rem;
+}

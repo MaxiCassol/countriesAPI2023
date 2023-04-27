@@ -1,0 +1,69 @@
+.div {
+  display:grid;
+  color: black;
+  font-family:initial;
+  padding: 1rem;
+  margin-left: 3rem;
+  width: 15rem;
+  height: 23.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  backdrop-filter: blur(5px);
+}
+
+.Continent{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.name{
+  text-underline-offset: auto ;
+  text-align: center;
+
+}
+.imag{
+  border-radius: 10%;
+  width: 10rem;
+}
+.imag.hover{
+    transition: all ;
+}
+
+.divButton{
+  align-content: end;
+}
+
+.button {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button:active {
+  background: var(--color);
+  color: #fff;
+}

@@ -1,0 +1,38 @@
+
+.about{
+    height: 52rem;
+    margin-top: 4rem;
+}
+
+.img{
+    padding: 15px; 
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    border: 2px solid black; 
+    float: left; 
+    width: 380px; 
+    height: 380px;
+    
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.linkedIn{
+    width: 10rem; 
+    height: 6rem;
+    border-radius: 25%;
+    margin: 2rem;
+    margin-left: 4rem;
+
+}
+
+.git{
+    border-radius: 25%;
+    width: 10rem; 
+    height: 6rem;
+    margin: 2rem;
+}
